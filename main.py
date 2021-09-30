@@ -1,8 +1,10 @@
 import keyboard
 import time
+import math
+
 
 numeros = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.']
-operacoes = ['+', '-', '*', '/']
+operacoes = ['+', '-', '*', '/', '^']
 print('programa iniciado')
 
 while True:
@@ -72,6 +74,9 @@ while True:
             elif op == '*':
                 res = n1f * n2f
 
+            elif op == '^':
+                res = math.pow(n1f, n2f)
+
             max_size = len(n1) + len(n2) + 3
 
             for i in range(max_size):
@@ -80,5 +85,6 @@ while True:
 
             keyboard.write(str(res))
             break
+
 
 
