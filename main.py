@@ -1,10 +1,6 @@
 import keyboard
 import time
 
-# se o usuario apertar < começa a ler a entrada de dados
-# quando ele apertar um caracter diferente dos presentes no vetor numeros salva oque ele digitou antes em n1
-# mesma coisa para o n2 até o usuario digitar >
-
 numeros = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.']
 operacoes = ['+', '-', '*', '/']
 print('programa iniciado')
