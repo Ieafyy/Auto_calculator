@@ -1,5 +1,5 @@
 # auto_calc
-Ao digitar uma das 4 operações básicas (+, -, *, /) ou exponencial (^) entre &lt;> o programa completará com o resultado.
+Ao digitar uma das 4 operações básicas (+, -, *, /) ou exponencial (^) entre &lt;> o programa completará com o resultado (funciona em qualquer lugar onde é possível entrada de texto). 
 
 Alguns exemplos:
 
